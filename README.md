@@ -44,7 +44,7 @@ Criar um pipeline robusto que:
 -Reduz a complexidade de clusters e estados
 
 
-###🔺 Por que Delta Lake?
+### 🔺 Por que Delta Lake?
 
 É o formato oficial do Databricks
 
@@ -63,7 +63,7 @@ Garante:
 -Evita corrupção de dados em streaming (coisa que parquet/csv não fazem)
 
 
-###🧱 Por que Arquitetura Medallion (Bronze → Silver → Gold)?
+### 🧱 Por que Arquitetura Medallion (Bronze → Silver → Gold)?
 
 Padroniza pipelines entre squads
 
