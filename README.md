@@ -69,11 +69,11 @@ Padroniza pipelines entre squads
 
 Separa zonas de:
 
--ingestão bruta (Bronze)
+-Ingestão bruta (Bronze)
 
--limpeza e qualidade (Silver)
+-Limpeza e qualidade (Silver)
 
--agregações para negócio (Gold)
+-Agregações para negócio (Gold)
 
 -Escalável e modular
 
