@@ -1,4 +1,4 @@
-# 📦 Pipeline Bronze → Silver em Streaming (Databricks Community Edition)
+# 📦 Pipeline Bronze → Silver em Streaming (Databricks Free Edition)
 
 Este repositório contém a implementação de um pipeline de dados do https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business/data 
 Usando **arquitetura Medallion (Bronze → Silver)**, **Spark Structured Streaming** e **Delta Lake**.
