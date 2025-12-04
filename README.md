@@ -18,7 +18,8 @@ Criar um pipeline robusto que:
 - Armazena checkpoints em caminhos permitidos no Free Edition
 
 
-##🎯 Motivações Técnicas — Por que usar essas tecnologias?
+## 🎯 Motivações Técnicas — Por que usar essas tecnologias?
+
 🐍 Por que PySpark?
 
 Linguagem amplamente usada por engenheiros de dados
