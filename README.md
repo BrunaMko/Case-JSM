@@ -20,61 +20,61 @@ Criar um pipeline robusto que:
 
 ## 🎯 Motivações Técnicas — Por que usar essas tecnologias?
 
-🐍 Por que PySpark?
+### 🐍 Por que PySpark?
 
-Linguagem amplamente usada por engenheiros de dados
+-Linguagem amplamente usada por engenheiros de dados
 
-Ideal para manipulação de grandes volumes
+-Ideal para manipulação de grandes volumes
 
-APIs mais simples e expressivas que Scala para ETL
+-APIs mais simples e expressivas que Scala para ETL
 
-Fácil integração com Databricks e Delta Lake
+-Fácil integração com Databricks e Delta Lake
 
-É a tecnologia mais adequada para times mistos (data + software), sendo a mais produtiva para ETL.
-
-
-⚡ Por que Spark Structured Streaming?
-
-Oferece processamento contínuo, essencial para real-time
-
-Garante fault-tolerance e exactly-once processing
-
-É escalável e gerenciado automaticamente pelo Databricks
-
-Reduz a complexidade de clusters e estados
+-É a tecnologia mais adequada para times mistos (data + software), sendo a mais produtiva para ETL.
 
 
-🔺 Por que Delta Lake?
+### ⚡ Por que Spark Structured Streaming?
+
+-Oferece processamento contínuo, essencial para real-time
+
+-Garante fault-tolerance e exactly-once processing
+
+-É escalável e gerenciado automaticamente pelo Databricks
+
+-Reduz a complexidade de clusters e estados
+
+
+###🔺 Por que Delta Lake?
 
 É o formato oficial do Databricks
 
 Garante:
 
-ACID Transactions
+-ACID Transactions
 
-Time Travel
+-Time Travel
 
-Merge / Upsert
+-Merge / Upsert
 
-Schema Evolution
+-Schema Evolution
 
-Permite fluxos batch e streaming usando o mesmo formato
+-Permite fluxos batch e streaming usando o mesmo formato
 
-Evita corrupção de dados em streaming (coisa que parquet/csv não fazem)
+-Evita corrupção de dados em streaming (coisa que parquet/csv não fazem)
 
 
-🧱 Por que Arquitetura Medallion (Bronze → Silver → Gold)?
+###🧱 Por que Arquitetura Medallion (Bronze → Silver → Gold)?
 
 Padroniza pipelines entre squads
 
 Separa zonas de:
 
-ingestão bruta (Bronze)
+-ingestão bruta (Bronze)
 
-limpeza e qualidade (Silver)
+-limpeza e qualidade (Silver)
 
-agregações para negócio (Gold)
+-agregações para negócio (Gold)
 
-Escalável e modular
+-Escalável e modular
 
-Suporte nativo no Databricks
+-Suporte nativo no Databricks
